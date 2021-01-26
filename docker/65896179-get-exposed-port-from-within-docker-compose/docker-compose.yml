@@ -3,7 +3,7 @@ services:
   server:
     build: .
     ports:
-      - "8086:8086"
+      - "8000-8004:8086"
     environment:
       - PORT=8086
 
